@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Food - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" width="100" alt="Fresh Food Logo" class="logo">
+            <h1 class="site-name">Fri-chicks</h1>
+            <nav>
+                <a href="index.html">Menu</a>
+                <a href="cart.html">Cart</a>
+                <a href="account.html">Account</a>
+                <a href="about.html">About Us</a>
+                <a href="reviews.html">Reviews</a>
+            </nav>
+        </div>
+    </header>
+        <h2>Menu</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="pizza.jpg" alt="Pizza" class="menu-image">
+                <div>
+                    <h3>Pizza - £10</h3>
+                    <button onclick="addToCart('Pizza', 10)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="burger.jpeg" alt="Burger" class="menu-image">
+                <div>
+                    <h3>Burger - £8</h3>
+                    <button onclick="addToCart('Burger', 8)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="pasta.jpeg" alt="Pasta" class="menu-image">
+                <div>
+                    <h3>Pasta - £12</h3>
+                    <button onclick="addToCart('Pasta', 12)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="salad.jpg" alt="Salad" class="menu-image">
+                <div>
+                    <h3>Salad - £7</h3>
+                    <button onclick="addToCart('Salad', 7)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="soup.jpg" alt="Soup" class="menu-image">
+                <div>
+                    <h3>Soup - £5</h3>
+                    <button onclick="addToCart('Soup', 5)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="sushi.jpeg" alt="Sushi" class="menu-image">
+                <div>
+                    <h3>Sushi - £15</h3>
+                    <button onclick="addToCart('Sushi', 15)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="steak.jpg" alt="Steak" class="menu-image">
+                <div>
+                    <h3>Steak - £20</h3>
+                    <button onclick="addToCart('Steak', 20)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="tacos.jpeg" alt="Tacos" class="menu-image">
+                <div>
+                    <h3>Tacos - £9</h3>
+                    <button onclick="addToCart('Tacos', 9)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <h2>Featured</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="lasagana.webp" alt="Lasagna" class="menu-image">
+                <div>
+                    <h3>Lasagna - £13</h3>
+                    <button onclick="addToCart('Lasagna', 13)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="ramen.webp" alt="Ramen" class="menu-image">
+                <div>
+                    <h3>Ramen - £11</h3>
+                    <button onclick="addToCart('Ramen', 11)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="padthai.jpg" alt="Pad Thai" class="menu-image">
+                <div>
+                    <h3>Pad Thai - £10</h3>
+                    <button onclick="addToCart('Pad Thai', 10)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="falafel.jpg" alt="Falafel" class="menu-image">
+                <div>
+                    <h3>Falafel - £8</h3>
+                    <button onclick="addToCart('Falafel', 8)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <h2>Deals</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="deal1.jpg" alt="Lasagna" class="menu-image">
+                <div>
+                    <h3>Best Deal</h3>
+                    <button onclick="addToCart('Best deal', 10)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="deal2.jpeg" alt="sushi" class="menu-image">
+                <div>
+                    <h3>Monday Deal
+                    </h3>
+                    <button onclick="addToCart('Monday deal', 11)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="deal3.jpeg" alt="Pad Thai" class="menu-image">
+                <div>
+                    <h3>Wednesday Speacial
+                    </h3>
+                    <button onclick="addToCart('Wednesday speacial', 10)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="deal4.jpg" alt="Falafel" class="menu-image">
+                <div>
+                    <h3>weekend speacial - £5</h3>
+                    <button onclick="addToCart('weekend speacial', 8)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <p>&copy; 2024 Fri-chicks. All rights reserved.</p>
+        <p>Fresh Food is dedicated to providing high-quality meals made from the freshest ingredients. Our mission is to offer delicious, healthy food to our customers.</p>
+        <p>Contact us: <a href="mailto:info@frichicks.com">info@Fri-chicks.com</a></p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</html>
+
+
+
